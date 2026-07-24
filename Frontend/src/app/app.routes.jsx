@@ -9,7 +9,7 @@ import ProductDetail from "../features/products/pages/ProductDetail";
 import SellerProductDetails from "../features/products/pages/SellerProductDetails";
 import SellerOrders from "../features/products/pages/SellerOrders";
 import Settings from "../features/products/pages/Settings";
-import AppLayout from "./Applayout";
+import AppLayout from "./AppLayout";
 import Cart from "../features/cart/pages/Cart.jsx";
 import OrderSuccess from "../features/cart/pages/OrderSuccess";
 import OrderHistory from "../features/orders/pages/OrderHistory";
