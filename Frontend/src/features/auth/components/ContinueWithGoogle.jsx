@@ -1,8 +1,9 @@
 import React from 'react'
+import { API_BASE_URL } from '../../../app/config'
 
 const ContinueWithGoogle = () => {
     return (
-        <a href="/api/auth/google"
+        <a href={`${API_BASE_URL}/api/auth/google`}
             className="flex items-center justify-center w-full bg-[#1E1E1E] border border-[#2A2A2A] px-4 py-4 rounded-none text-sm font-medium text-[#e5e2e1] hover:border-[#ffd700] hover:text-white transition-all duration-300 focus:outline-none focus:ring-1 focus:ring-[#ffd700] focus:ring-offset-2 focus:ring-offset-[#121212] mb-4"
             style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '0.04em' }}
         >
