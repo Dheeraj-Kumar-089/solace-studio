@@ -1,0 +1,33 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- warm off-white base -->
+  <rect width="900" height="1200" fill="#efece5"/>
+
+  <!-- full-bleed horizontal band composition (rotated rhythm vs. the login page), so any
+       object-cover crop still shows strong content no matter the container's aspect ratio -->
+  <rect x="0" y="0"    width="900" height="160" fill="#1a1a1a"/>
+  <rect x="0" y="160"  width="900" height="100" fill="#efece5"/>
+  <rect x="0" y="260"  width="900" height="70"  fill="#8a8378"/>
+  <rect x="0" y="330"  width="900" height="210" fill="#efece5"/>
+  <rect x="0" y="540"  width="900" height="270" fill="#1a1a1a"/>
+  <rect x="0" y="810"  width="900" height="80"  fill="#efece5"/>
+  <rect x="0" y="890"  width="900" height="150" fill="#c7beac"/>
+  <rect x="0" y="1040" width="900" height="160" fill="#efece5"/>
+
+  <!-- large circle accent breaking the bands -->
+  <circle cx="450" cy="675" r="140" fill="#efece5"/>
+  <circle cx="450" cy="675" r="140" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- vertical bar crossing the bands for an architectural collage feel -->
+  <rect x="650" y="0" width="46" height="1200" fill="#1a1a1a" opacity="0.9"/>
+
+  <!-- abstract garment mark: two hanger silhouettes, high-contrast -->
+  <g fill="#1a1a1a">
+    <circle cx="230" cy="110" r="10" fill="none" stroke="#efece5" stroke-width="5"/>
+    <line x1="230" y1="120" x2="230" y2="150" stroke="#efece5" stroke-width="5"/>
+    <path d="M180 150 L280 150 L305 260 L245 260 L230 210 L215 260 L155 260 Z" fill="#efece5"/>
+
+    <circle cx="230" cy="960" r="10" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+    <line x1="230" y1="970" x2="230" y2="1000" stroke="#1a1a1a" stroke-width="5"/>
+    <path d="M180 1000 L280 1000 L305 1110 L245 1110 L230 1060 L215 1110 L155 1110 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- warm off-white base -->
+  <rect width="900" height="1200" fill="#efece5"/>
+
+  <!-- full-bleed vertical stripe composition, so any object-cover crop still shows strong content -->
+  <rect x="0"   y="0" width="140" height="1200" fill="#1a1a1a"/>
+  <rect x="140" y="0" width="90"  height="1200" fill="#efece5"/>
+  <rect x="230" y="0" width="60"  height="1200" fill="#8a8378"/>
+  <rect x="290" y="0" width="180" height="1200" fill="#efece5"/>
+  <rect x="470" y="0" width="230" height="1200" fill="#1a1a1a"/>
+  <rect x="700" y="0" width="70"  height="1200" fill="#efece5"/>
+  <rect x="770" y="0" width="130" height="1200" fill="#c7beac"/>
+
+  <!-- large circle accent breaking the stripes -->
+  <circle cx="585" cy="430" r="130" fill="#efece5"/>
+  <circle cx="585" cy="430" r="130" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- horizontal bands crossing the stripes for an architectural collage feel -->
+  <rect x="0" y="760" width="900" height="70" fill="#1a1a1a" opacity="0.9"/>
+  <rect x="0" y="900" width="900" height="18" fill="#8a8378"/>
+
+  <!-- abstract garment mark: a simple coat/hanger silhouette, high-contrast, roughly centered -->
+  <g fill="#efece5">
+    <circle cx="585" cy="990" r="10" fill="none" stroke="#efece5" stroke-width="5"/>
+    <line x1="585" y1="1000" x2="585" y2="1030" stroke="#efece5" stroke-width="5"/>
+    <path d="M535 1030 L635 1030 L660 1170 L600 1170 L585 1120 L570 1170 L510 1170 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+node_modules
+scripts
+
+# Environment variables — contains real secrets (DB URI, JWT secret, API keys).
+# Never commit this; each environment (local, Render) sets its own values.
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store

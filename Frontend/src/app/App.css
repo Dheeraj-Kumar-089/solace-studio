@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@theme {
+  --color-inverse-surface: #2f3131;
+  --color-primary-fixed: #e2e2e2;
+  --color-on-secondary-fixed-variant: #454747;
+  --color-primary-container: #1b1b1b;
+  --color-surface-tint: #5e5e5e;
+  --color-on-tertiary-container: #848484;
+  --color-inverse-primary: #c6c6c6;
+  --color-surface-container-low: #f3f3f4;
+  --color-primary-fixed-dim: #c6c6c6;
+  --color-on-tertiary-fixed-variant: #474747;
+  --color-on-primary: #FFFFFF;
+  --color-outline: #7e7576;
+  --color-secondary-fixed-dim: #c6c6c7;
+  --color-primary: #000000;
+  --color-on-primary-container: #848484;
+  --color-on-tertiary-fixed: #1b1b1b;
+  --color-tertiary-fixed: #e2e2e2;
+  --color-surface-bright: #f9f9f9;
+  --color-on-background: #1a1c1c;
+  --color-on-primary-fixed-variant: #474747;
+  --color-surface: #f9f9f9;
+  --color-surface-container: #eeeeee;
+  --color-on-error-container: #93000a;
+  --color-surface-container-high: #e8e8e8;
+  --color-border-low-contrast: #E0E0E0;
+  --color-outline-variant: #cfc4c5;
+  --color-error-container: #ffdad6;
+  --color-on-tertiary: #ffffff;
+  --color-on-surface-variant: #4c4546;
+  --color-surface-variant: #e2e2e2;
+  --color-on-secondary: #ffffff;
+  --color-surface-dim: #dadada;
+  --color-on-secondary-fixed: #1a1c1c;
+  --color-secondary-fixed: #e2e2e2;
+  --color-on-secondary-container: #5f6161;
+  --color-on-primary-fixed: #1b1b1b;
+  --color-on-error: #ffffff;
+  --color-tertiary-container: #1b1b1b;
+  --color-tertiary: #000000;
+  --color-error: #ba1a1a;
+  --color-secondary-container: #dcdddd;
+  --color-secondary: #5d5f5f;
+  --color-tertiary-fixed-dim: #c6c6c6;
+  --color-inverse-on-surface: #f0f1f1;
+  --color-surface-container-highest: #e2e2e2;
+  --color-background: #f9f9f9;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-surface: #1a1c1c;
+
+  /* Inter carries body/label text; Fraunces (a refined, slightly editorial serif)
+     carries headings — this pairing is what actually gives the app a premium,
+     considered voice instead of relying on size alone. */
+  --font-body-lg: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-headline-lg-mobile: "Fraunces", Georgia, serif;
+  --font-label-sm: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-headline-lg: "Fraunces", Georgia, serif;
+  --font-label-md: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body-md: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-headline-md: "Fraunces", Georgia, serif;
+  --font-display-lg: "Fraunces", Georgia, serif;
+
+  --spacing-base: 4px;
+  --spacing-gutter: 24px;
+  --spacing-section-gap: 96px;
+  --spacing-margin-mobile: 16px;
+  --spacing-margin-desktop: 64px;
+
+  --text-body-lg: 16px;
+  --text-body-lg--line-height: 26px;
+
+  /* Headings dialed down from the original oversized scale so they read as
+     considered typography rather than shouting placeholder text. */
+  --text-headline-lg-mobile: 22px;
+  --text-headline-lg-mobile--line-height: 30px;
+  --text-headline-lg-mobile--letter-spacing: -0.01em;
+
+  --text-label-sm: 12px;
+  --text-label-sm--line-height: 16px;
+  --text-label-sm--letter-spacing: 0.08em;
+
+  --text-headline-lg: 26px;
+  --text-headline-lg--line-height: 34px;
+  --text-headline-lg--letter-spacing: -0.01em;
+
+  --text-label-md: 13px;
+  --text-label-md--line-height: 18px;
+  --text-label-md--letter-spacing: 0.04em;
+
+  --text-body-md: 14px;
+  --text-body-md--line-height: 22px;
+
+  --text-headline-md: 19px;
+  --text-headline-md--line-height: 27px;
+
+  --text-display-lg: 42px;
+  --text-display-lg--line-height: 48px;
+  --text-display-lg--letter-spacing: -0.01em;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f9f9f9;
+  color: #000000;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
