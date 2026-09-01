@@ -162,7 +162,7 @@ const Nav = () => {
                         value={searchQuery}
                         onChange={e => setSearchQuery(e.target.value)}
                         onFocus={() => setIsSearchFocused(true)}
-                        placeholder='Ask Kairis AI… e.g. "black hoodie under ₹2000"'
+                        placeholder='AI Search… e.g. "black hoodie under ₹2000"'
                         className="w-full bg-surface-container-low border border-border-low-contrast rounded-none pl-10 pr-4 py-2.5
                             font-body-md text-body-md text-primary placeholder-secondary focus:outline-none focus:border-primary
                             transition-all duration-200"
